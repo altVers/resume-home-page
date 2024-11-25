@@ -35,7 +35,8 @@ const ContactForm: FC = memo(() => {
 
   const handleSendMessage = useCallback(async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    emailjs
+    if (form.current) {
+      emailjs
       .sendForm('service_1oucbtf', 'template_7po57ba', form.current, {
         publicKey: 'PNOmbQ7EfsGIgFd6U',
       })
@@ -48,6 +49,7 @@ const ContactForm: FC = memo(() => {
           console.log('FAILED...', error.text);
         },
       );
+    }
   }, []);
 
   const handleSentMoreMessage = () => {
