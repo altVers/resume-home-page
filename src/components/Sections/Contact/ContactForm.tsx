@@ -1,6 +1,6 @@
 import emailjs from '@emailjs/browser';
 import classNames from 'classnames';
-import {FC, memo, useCallback, useMemo, useRef, useState} from 'react';
+import {FC, memo, useCallback, useMemo, useState} from 'react';
 
 interface FormData {
   name: string;
@@ -20,7 +20,6 @@ const ContactForm: FC = memo(() => {
 
   const [messageSent, setMessageSent] = useState<boolean>(false);
   const [data, setData] = useState<FormData>(defaultData);
-  const form = useRef<HTMLFormElement | null>(null);
 
   const onChange = useCallback(
     <T extends HTMLInputElement | HTMLTextAreaElement>(event: React.ChangeEvent<T>): void => {
@@ -34,10 +33,11 @@ const ContactForm: FC = memo(() => {
   );
 
   const handleSendMessage = useCallback(async (event: React.FormEvent<HTMLFormElement>) => {
+    const form = document.getElementById('myForm') as HTMLFormElement;
     event.preventDefault();
-    if (form.current) {
+    if (form) {
       emailjs
-      .sendForm('service_1oucbtf', 'template_7po57ba', form.current, {
+      .sendForm('service_1oucbtf', 'template_7po57ba', form, {
         publicKey: 'PNOmbQ7EfsGIgFd6U',
       })
       .then(
@@ -53,7 +53,8 @@ const ContactForm: FC = memo(() => {
   }, []);
 
   const handleSentMoreMessage = () => {
-    form.current?.reset();
+    const form = document.getElementById('myForm') as HTMLFormElement;
+    form.reset();
     setMessageSent(false);
   };
 
@@ -74,7 +75,7 @@ const ContactForm: FC = memo(() => {
       </button>
     </>
   ) : (
-    <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage} ref={form}>
+    <form className="grid min-h-[320px] grid-cols-1 gap-y-4" id='myForm' method="POST" onSubmit={handleSendMessage}>
       <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
       <input
         autoComplete="email"
