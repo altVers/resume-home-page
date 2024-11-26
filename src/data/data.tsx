@@ -147,7 +147,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Cinema Guide',
     description:
       'Cinema Guide is a web application that allows users to search for movie information, check ratings, and watch trailers.',
-    url: 'https://altvers.ru/',
+    url: 'https://cinema-guide.altvers.ru/',
     image: porfolioImage1,
   },
 ];
