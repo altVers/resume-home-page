@@ -330,22 +330,22 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Yauheni Bykau',
+      name: 'Yauheni Bykau, Frontend Developer',
       text: 'First Comment',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Alexey Kudryavtsev',
+      name: 'Alexey Kudryavtsev, Designer',
       text: 'Timofey and I spent several years gathering ongoing tasks for two T-Bank editorial teams at the intersection of the release and design teams. Working together was incredibly comfortable and productive. Timofey is a wonderful colleague, a reliable worker, and a pleasant person to communicate with. I would like to specifically highlight his ability to quickly learn new things and seamlessly onboard into any task or process.',
       image: 'https://i.ibb.co/BsR2D5k/photo-2022-10-12-13-45-49.jpg',
     },
     {
-      name: 'Kolesov Daniil',
+      name: 'Kolesov Daniil, Backend Developer',
       text: 'Third Comment',
       image: 'https://i.ibb.co/ZXD0jV5/photo-2024-06-23-14-40-50.jpg',
     },
     {
-      name: 'Rikulskaya Maria',
+      name: 'Rikulskaya Maria, Content Manager',
       text: 'Fourth Comment',
       image: 'https://i.ibb.co/j8wvf7b/photo-2023-12-07-19-27-17.jpg',
     },
