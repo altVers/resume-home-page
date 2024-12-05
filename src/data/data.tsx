@@ -206,13 +206,12 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '2020 — Present',
+    date: '2022 — Present',
     location: 'T-Bank',
     title: 'Frontend developer',
     content: (
       <p>
-        And finally, my second side job is as a front-end developer.
-        <br /> I worked for a year on media projects at T-Bank. The team supported projects like T-Help, T-Blog, Mobile
+        <br /> I worked almost for three years on media projects at T-Bank. The team supported projects like T-Help, T-Blog, Mobile
         Assistance, Currency Transfer Map, and the admin panel for content management.
         <br /> The products I worked on were high-load services with a total monthly active user count (MAU) of 23
         million. I actively wrote tests and participated in updating package versions to current ones.
@@ -307,7 +306,7 @@ export const experience: TimelineItem[] = [
     title: 'Designer',
     content: (
       <p>
-        The company provided me with the opportunity to grow and offered me two side jobs: the first one is as a
+        The company provided me with the opportunity to grow and offered me side jobs as a
         designer. <br />
         For over a year now, I have been helping my team with design tasks — I participate in:
         <br />- creating mockups,
