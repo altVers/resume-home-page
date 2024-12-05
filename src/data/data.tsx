@@ -206,89 +206,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '2022 — 2023',
-    location: 'T-Bank',
-    title: 'Content manager',
-    content: (
-      <p>
-        My first leap into development was becoming a content manager. <br />
-        At that time, I couldn't call myself a real developer, as I mostly worked within a CMS. I was part of a large
-        team that maintained a knowledge base directory for a major bank. I was an executor, and my clients were product
-        managers and editors. <br />
-        The product that we have been developing —{' '}
-        <a className="underline" href="https://www.tbank.ru/help/" target="_blank">
-          T-Help.
-        </a>{' '}
-        <br />
-        <br />
-        In my work, I used: <br />- HTML,
-        <br />- CSS,
-        <br />- iframes,
-        <br />- redirects,
-        <br />- variables. <br />
-        <br />
-        We used corporate messengers for communication, and for project management, we utilized Kanban boards like:
-        <br />- Jira,
-        <br />- Trello,
-        <br />- Kaiten. <br />
-      </p>
-    ),
-  },
-  {
-    date: '2023 — Present',
-    location: 'T-Bank',
-    title: 'Production editor',
-    content: (
-      <p>
-        The next stage in my growth within this company was the position of a production editor. <br />
-        It might seem that I've moved a bit away from development, and that could be true. However, if you look closely
-        at what I do, you can see that I am studying development from the other side —{' '}
-        <b>not as an executor, but as a client.</b> <br />
-        <br />
-        In this role, I serve as a link between content managers, developers, editorial staff, SEO specialists,
-        analysts, designers, translators, and product managers. Here, I see enormous potential in myself: I`ve been able
-        to look "behind the scenes" of each profession that is responsible for different processes within a single
-        project, which allows me to more accurately define the role of development in the team and the value of the
-        tasks they perform. During my work, I continuously study the tools that our developers use and gather knowledge
-        from them. <br />
-        <br />
-        For my work, I use:
-        <br />- Kanban boards,
-        <br />- Wiki,
-        <br />- Analytics tools,
-        <br />- Google Docs,
-        <br />- Google Sheets,
-        <br />- AppsFlyer,
-        <br />- Miro,
-        <br />- Many internal tools of the company.
-        <br />
-        <br />
-        This position significantly improved my communication and project management skills.
-      </p>
-    ),
-  },
-  {
-    date: '2023 — Present',
-    location: 'T-Bank',
-    title: 'Designer',
-    content: (
-      <p>
-        The company provided me with the opportunity to grow and offered me two side jobs: the first one is as a
-        designer. <br />
-        For over a year now, I have been helping my team with design tasks — I participate in:
-        <br />- creating mockups,
-        <br />- designing components,
-        <br />- processing content materials used in the instructions for our knowledge base. <br />
-        <br />
-        For my work, I use:
-        <br />- Figma,
-        <br />- Photoshop, <br />- Blender,
-        <br />- artificial intelligence.
-      </p>
-    ),
-  },
-  {
-    date: '2024 — Present',
+    date: '2020 — Present',
     location: 'T-Bank',
     title: 'Frontend developer',
     content: (
@@ -321,6 +239,89 @@ export const experience: TimelineItem[] = [
       </p>
     ),
   },
+  {
+    date: '2021 — 2022',
+    location: 'T-Bank',
+    title: 'Content manager',
+    content: (
+      <p>
+        My first leap into development was becoming a content manager. <br />
+        At that time, I couldn't call myself a real developer, as I mostly worked within a CMS. I was part of a large
+        team that maintained a knowledge base directory for a major bank. I was an executor, and my clients were product
+        managers and editors. <br />
+        The product that we have been developing —{' '}
+        <a className="underline" href="https://www.tbank.ru/help/" target="_blank">
+          T-Help.
+        </a>{' '}
+        <br />
+        <br />
+        In my work, I used: <br />- HTML,
+        <br />- CSS,
+        <br />- iframes,
+        <br />- redirects,
+        <br />- variables. <br />
+        <br />
+        We used corporate messengers for communication, and for project management, we utilized Kanban boards like:
+        <br />- Jira,
+        <br />- Trello,
+        <br />- Kaiten. <br />
+      </p>
+    ),
+  },
+  // {
+  //   date: '2023 — Present',
+  //   location: 'T-Bank',
+  //   title: 'Production editor',
+  //   content: (
+  //     <p>
+  //       The next stage in my growth within this company was the position of a production editor. <br />
+  //       It might seem that I've moved a bit away from development, and that could be true. However, if you look closely
+  //       at what I do, you can see that I am studying development from the other side —{' '}
+  //       <b>not as an executor, but as a client.</b> <br />
+  //       <br />
+  //       In this role, I serve as a link between content managers, developers, editorial staff, SEO specialists,
+  //       analysts, designers, translators, and product managers. Here, I see enormous potential in myself: I`ve been able
+  //       to look "behind the scenes" of each profession that is responsible for different processes within a single
+  //       project, which allows me to more accurately define the role of development in the team and the value of the
+  //       tasks they perform. During my work, I continuously study the tools that our developers use and gather knowledge
+  //       from them. <br />
+  //       <br />
+  //       For my work, I use:
+  //       <br />- Kanban boards,
+  //       <br />- Wiki,
+  //       <br />- Analytics tools,
+  //       <br />- Google Docs,
+  //       <br />- Google Sheets,
+  //       <br />- AppsFlyer,
+  //       <br />- Miro,
+  //       <br />- Many internal tools of the company.
+  //       <br />
+  //       <br />
+  //       This position significantly improved my communication and project management skills.
+  //     </p>
+  //   ),
+  // },
+  {
+    date: '2023 — 2024',
+    location: 'T-Bank',
+    title: 'Designer',
+    content: (
+      <p>
+        The company provided me with the opportunity to grow and offered me two side jobs: the first one is as a
+        designer. <br />
+        For over a year now, I have been helping my team with design tasks — I participate in:
+        <br />- creating mockups,
+        <br />- designing components,
+        <br />- processing content materials used in the instructions for our knowledge base. <br />
+        <br />
+        For my work, I use:
+        <br />- Figma,
+        <br />- Photoshop, <br />- Blender,
+        <br />- artificial intelligence.
+      </p>
+    ),
+  },
+  
 ];
 
 /**
