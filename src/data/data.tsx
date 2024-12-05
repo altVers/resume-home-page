@@ -165,7 +165,7 @@ export const education: TimelineItem[] = [
     ),
   },
   {
-    date: '2020 — 2021',
+    date: '2020',
     location: 'Skillbox',
     title: 'Online courses in backend development',
     content: (
@@ -189,7 +189,7 @@ export const education: TimelineItem[] = [
     ),
   },
   {
-    date: '2023 — Present',
+    date: '2022',
     location: 'Skillbox, Hexlet',
     title: 'Online courses in frontend development',
     content: (
