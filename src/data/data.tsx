@@ -211,7 +211,7 @@ export const experience: TimelineItem[] = [
     title: 'Frontend developer',
     content: (
       <p>
-        <br /> I worked almost for three years on media projects at T-Bank. The team supported projects like T-Help, T-Blog, Mobile
+        I worked almost for three years on media projects at T-Bank. The team supported projects like T-Help, T-Blog, Mobile
         Assistance, Currency Transfer Map, and the admin panel for content management.
         <br /> The products I worked on were high-load services with a total monthly active user count (MAU) of 23
         million. I actively wrote tests and participated in updating package versions to current ones.
